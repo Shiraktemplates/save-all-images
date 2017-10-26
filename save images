@@ -1,0 +1,1 @@
+javascript:%20(function()%20{%20tstr%20=%20'';%20s%20=%20document.getElementsByTagName('img');%20for%20(i%20=%200;%20i%20<%20s.length;%20i++)%20{%20tstr%20=%20s[i].getAttribute("src");%20var%20link%20=%20document.createElement('a');%20link.href%20=%20tstr;%20link.download%20=%20tstr;%20document.body.appendChild(link);%20link.click();%20}%20})();
